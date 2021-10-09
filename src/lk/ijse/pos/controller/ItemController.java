@@ -8,4 +8,8 @@ public class ItemController {
     public static void updateItem(){
         System.out.println("Updated");
     }
+
+    public static void deleteItem(){
+        System.out.println("Deleted");
+    }
 }
