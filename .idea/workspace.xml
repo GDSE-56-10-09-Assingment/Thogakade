@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fe1fa2c-591e-49ba-8a18-5a5f50737e30" name="Default Changelist" comment="Fifth Commit">
-      <change afterPath="$PROJECT_DIR$/src/lk/ijse/pos/controller/CustomerController.java" afterDir="false" />
+    <list default="true" id="7fe1fa2c-591e-49ba-8a18-5a5f50737e30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,6 +38,7 @@
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
+          <entry key="git.branch.checkout.local" value="1" />
           <entry key="git.branch.create.new" value="6" />
           <entry key="git.branch.delete.local" value="2" />
           <entry key="git.branch.rename" value="1" />
@@ -49,16 +49,16 @@
           <entry key="LICENSE" value="20" />
           <entry key="fxml" value="10" />
           <entry key="gitignore" value="11" />
-          <entry key="java" value="21" />
+          <entry key="java" value="62" />
           <entry key="md" value="14" />
-          <entry key="txt" value="85" />
+          <entry key="txt" value="115" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="62" />
           <entry key="Markdown" value="14" />
-          <entry key="PLAIN_TEXT" value="116" />
+          <entry key="PLAIN_TEXT" value="146" />
           <entry key="XML" value="10" />
         </counts>
       </usages-collector>
@@ -115,20 +115,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lk/ijse/pos/controller/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lk/ijse/pos/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -180,6 +184,8 @@
         <option value="$PROJECT_DIR$/src/lk/ijse/pos/AppInitializer.java" />
         <option value="$PROJECT_DIR$/src/lk/ijse/pos/view/Item.fxml" />
         <option value="$PROJECT_DIR$/src/lk/ijse/pos/view/Customer.fxml" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/pos/model/Customer.java" />
+        <option value="$PROJECT_DIR$/src/lk/ijse/pos/controller/CustomerController.java" />
       </list>
     </option>
   </component>
@@ -253,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633759083150" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1633759402641" />
     <property name="last_opened_file_path" value="F:/IJSE sofware/mysql-connector-java-8.0.11.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -341,11 +347,18 @@
       <option name="project" value="LOCAL" />
       <updated>1633757476664</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Save Customer method Commit">
+      <created>1633759324808</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633759324808</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3926000" />
+    <option name="totallyTimeSpent" value="4203000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -420,7 +433,8 @@
     <MESSAGE value="2nd commit" />
     <MESSAGE value="Fourth Commit" />
     <MESSAGE value="Fifth Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fifth Commit" />
+    <MESSAGE value="Save Customer method Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Save Customer method Commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/lk/ijse/pos/model/Item.java">
@@ -484,17 +498,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/ijse/pos/controller/CustomerController.java">
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/pos/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lk/ijse/pos/model/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/lk/ijse/pos/controller/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
