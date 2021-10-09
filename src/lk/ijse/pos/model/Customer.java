@@ -5,6 +5,9 @@ public class Customer {
         System.out.println("Saved");
     }
     public static void updateCustomer(){
-        System.out.println("Saved");
+        System.out.println("Updated");
+    }
+    public static void deleteCustomer(){
+        System.out.println("Deleted");
     }
 }
