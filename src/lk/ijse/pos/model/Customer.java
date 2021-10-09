@@ -1,7 +1,7 @@
 package lk.ijse.pos.model;
 
 public class Customer {
-    public String saveCustomer(){
-        return ("customer saved");
+    public static void saveCustomer(){
+        System.out.println("Saved");
     }
 }
